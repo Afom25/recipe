@@ -5,7 +5,7 @@ const Recipe = ({title,image}) => {
     return (
         <div className='container'><hr></hr>
             
-                <h1>{title}</h1><hr></hr>
+                <h4>{title}</h4><hr></hr>
            
          
             <img src={image} alt=""/>
